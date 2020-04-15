@@ -108,7 +108,7 @@ pattern = []
 [dependencies.aho-corasick]
 #version = "0.7.6"
 optional = true
-path = "../aho-corasick-sgx"
+git = "https://github.com/fredfortier/aho-corasick-sgx"
 rev = "v1.0.9-backup"
 
 # For skipping along search text quickly when a leading byte is known.
