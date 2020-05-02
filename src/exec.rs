@@ -361,7 +361,7 @@ impl ExecBuilder {
             Some(lits) => lits,
         };
         // If we have a small number of literals, then let Teddy handle
-        // things (see literal/mod.rs).
+        // things (see literal/price_data_source_t).
         if lits.len() <= 32 {
             return None;
         }
